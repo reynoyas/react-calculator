@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <div className="Calculator">
-        <input src={logo} className="display" alt="text" value={input} readOnly />
+        {/* <input src={logo} className="display" alt="text" value={input} readOnly /> */}
         <Keypad
           handleClear={handleClear}
           handleClick={handleClick}
