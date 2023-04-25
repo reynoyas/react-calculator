@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="Calculator">
+      <div className="calculator">
         {/* <input src={logo} className="display" alt="text" value={input} readOnly /> */}
         <Keypad
           handleClear={handleClear}
